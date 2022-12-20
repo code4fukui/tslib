@@ -30,6 +30,12 @@ exports.y = tslib_1.__assign({}, exports.x);
 Because this can avoid duplicate declarations of things like `__extends`, `__assign`, etc., this means delivering users smaller files on average, as well as less runtime overhead.
 For optimized bundles with TypeScript, you should absolutely consider using `tslib` and `--importHelpers`.
 
+# usage
+
+```JavaScript
+import "https://code4fukui.github.io/tslib/tslib.es6.js";
+```
+
 # Installing
 
 For the latest stable version, run:
